@@ -173,7 +173,11 @@ if(bdayStr!='')
         var[ctr,nextDate]=getNextPalindromeDate(date);
         outputElement.innerText=`The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${ctr} days. 😞 `;
         }
-
+       
+}
+else{
+    
+    outputElement.innerText='please enter valid dates 👎';
 }
 }
 showBtnRef.addEventListener("click",clickHandler);
