@@ -28,14 +28,18 @@ h1{
 #birthday-input
 {
     margin: auto;
-    width: 100%;
+    margin-top: 3rem;
+    width: 70%;
     padding: 0.5rem;
     border: 1px soliid var(--secondary-color);
     border-radius: 0.3rem;
 }
+button:hover
+{
+    background-color: var(--secondary-color);
+}
 #show-btn
 {
-    align-content: center;
     width: 20%;
     margin-top: 2rem;
     padding: 0.5rem;
@@ -52,7 +56,168 @@ h1{
 }
 
 
+.footer-list
+{
+    
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+li{
+    
+    display: inline;
+}
+button
+{
+    cursor: pointer;
+}
+.source{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
 
+.source .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px black;
+    transition: all 0.3s ease-out;
+}
+
+.source .button span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+}
+
+.source .button:hover {
+    height: 105px;
+    width: 170px;
+    border-radius: 15px;
+    color: var(--primary-color);
+}
+
+.source .button:hover .icon {
+    background: var(--primary-color);
+    color:var(--secondary-color);
+}
+
+.source .button i{
+    line-height: 3rem;
+}
+footer{
+    margin-top: 12rem;
+box-sizing: border-box;
+display: grid;
+height: 100%;
+width: 100%;
+place-items: center;
+font-family: var(--font-four);
+}
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 200px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.hashnode{
+    margin-top: 0.9rem;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: var(--primary-color);
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: var(--primary-color);
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #211F1F;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background:var(--primary-color);
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+    background:var(--primary-color);
+    color:var(--secondary-color);
+}
+
+.wrapper .button:nth-child(6):hover .icon {
+    background:var(--primary-color);
+}
+
+.wrapper .button:nth-child(7):hover .icon {
+    background:var(--primary-color);
+}
+
+.wrapper .button:nth-child(8):hover .icon {
+    background: var(--primary-color);
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+    color: #fff;
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+    color: var(--primary-color);
+}
+
+.wrapper .button:nth-child(2) span {
+    color:var(--primary-color);
+}
+
+.wrapper .button:nth-child(3) span {
+    color:var(--primary-color);
+}
+
+.wrapper .button:nth-child(4) span {
+    color: var(--primary-color);
+}
 
 
 
